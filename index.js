@@ -23,6 +23,8 @@ function openFilePicker() {
     fileInput.click();
 }
 
+
+
 // Function to handle file selection and create image containers
 function handleFileSelect(event) {
     const files = event.target.files;
