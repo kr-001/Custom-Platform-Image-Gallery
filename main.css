@@ -73,7 +73,9 @@ body {
 }
 
 
-
+.button{
+    transition: color 0.3s ease;
+}
 
 /* Image Preview */
 #previewContainer {
