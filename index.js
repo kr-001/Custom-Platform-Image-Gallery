@@ -45,10 +45,6 @@ function handleFileSelect(event) {
         const img = document.createElement("img");
         const blobUrl = URL.createObjectURL(file);
         img.src = blobUrl;
-        // img.addEventListener("load", ()=>{
-        //     imgContainer.style.width = img.naturalWidth + "px";
-        //     imgContainer.style.height = img.naturalHeight + "px";
-        // });
         img.addEventListener("click", () => openSlideshow(blobUrl));
         imgContainer.appendChild(img);
         imgContainer.appendChild(deleteButton);
